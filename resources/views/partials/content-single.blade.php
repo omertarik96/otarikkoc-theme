@@ -28,20 +28,6 @@
           <article>
             <h1> {{ get_the_title() }} </h1>
             @include('partials/entry-meta')
-            <ul class="categories">
-              <li style="display: inline-block"><span class="badge badge-default">Toefl</span></li>
-              <li style="display: inline-block"><span class="badge badge-default">Study Guide</span></li>
-              <li style="display: inline-block"><span class="badge badge-default">English Language</span></li>
-
-
-              <li id="author" style="display: inline-block; float: right;"><i class="fa fa-user"></i><a
-                        href="#"></i><span class=""> Author</span></a></li>
-
-              <li id="update-date" style="display: inline-block; float: right; margin-right: 15px;"><i
-                        class="fa fa-clock-o"></i> <span>Last Updated:  </span><a
-                        href="#"><span>24 July 2017 </span></a></li>
-
-            </ul>
             <img src="{{ get_the_post_thumbnail_url() }}" alt="{{ get_the_post_thumbnail_caption() }}" class="img-responsive img-blog-main"/>
             <p>@php(the_content())</p>
 

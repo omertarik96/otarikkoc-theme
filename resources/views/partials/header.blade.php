@@ -1,7 +1,7 @@
 
 <div class="template-page sidebar-collapse bg-grey">
 <!-- Navbar -->
-<nav class="navbar navbar-expand-lg bg-main-color fixed-top " color-on-scroll="5">
+<nav class="navbar navbar-expand-lg bg-main-color fixed-top" color-on-scroll="5">
   <div class="container">
     <div class="navbar-translate">
       <a class="navbar-brand" href="{{ home_url('/') }}}}" target="_blank">
@@ -70,7 +70,7 @@
             <input type="text" class="form-control form-control-transparent" placeholder="Search Here..."
                    style="padding: 6px 0px 6px 18px">
             <span class="input-group-addon" style="background-color: transparent; padding:6px 18px 6px 0; ">
-                            <i class="now-ui-icons ui-1_zoom-bold" style="color:white"></i>
+                            <i class="fa fa-search" style="color:white"></i>
                         </span>
           </div>
         </li>
