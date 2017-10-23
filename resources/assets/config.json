@@ -1,0 +1,27 @@
+{
+  "entry": {
+    "main": [
+      "./scripts/main.js",
+      "./styles/main.scss"
+    ],
+    "customizer": [
+      "./scripts/customizer.js"
+    ],
+    "now-ui-kit":[
+      "./styles/now-ui-kit.css",
+      "./scripts/now-ui-kit.js"
+    ],
+    "custom": [
+      "./styles/customstyles.scss"
+    ]
+  },
+  "publicPath": "/wp-content/themes/otarikkoc-theme",
+  "devUrl": "http://localhost:8888/newotarikkoc",
+  "proxyUrl": "http://localhost:3000",
+  "cacheBusting": "[name]_[hash:8]",
+  "watch": [
+    "app/**/*.php",
+    "config/**/*.php",
+    "resources/views/**/*.php"
+  ]
+}

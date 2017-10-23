@@ -1,0 +1,55 @@
+.container-promo {
+  text-align: left;
+  color: white;
+  padding-top: 10vh;
+  padding-bottom: 6vh;
+  padding-left: 1.5em;
+}
+
+.features-card {
+  transition: transform 0.3s initial initial;
+}
+
+.features-card:hover {
+  transform: scale3d(1.006, 1.006, 1);
+  cursor: pointer;
+}
+
+.container-blog {
+  box-shadow: 0 5px 15px 0 rgba(0, 0, 0, 0.2);
+  padding: 10px 5px;
+  margin-bottom: 5px;
+  margin-top: 5px;
+}
+
+.container-blog:hover {
+  background-color: $mainColor;
+  color: white;
+  transition: 0.3s;
+  cursor: pointer;
+}
+
+.container-blog h3 {
+  padding-bottom: 0;
+  margin-bottom: 0;
+}
+
+.container-blog h4 {
+  margin-top: 0;
+  margin-bottom: 5px;
+}
+
+.container-blog p {
+  font-size: 1.2em;
+}
+
+.cta-input {
+  width: 40%;
+  display: inline;
+  border-radius: 0 !important;
+}
+
+.cta-button {
+  margin-bottom: 3px !important;
+  margin-top: 0 !important;
+}

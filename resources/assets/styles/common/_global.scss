@@ -1,0 +1,63 @@
+p {
+  line-height: 2.1em;
+}
+
+.main-section {
+  margin-top: -3em;
+}
+
+.bg-grey {
+  background-color: $greyColor;
+}
+
+.bg-main-color {
+  background-color: $mainColor;
+}
+
+.bg-white {
+  background-color: white;
+}
+
+.skew-y-6 {
+  transform: skew(0deg, -5deg);
+  transform-origin: left top;
+}
+
+.inverse-skew-y-6 {
+  transform: skew(0deg, 5deg);
+  -webkit-transform: skew(0deg, 5deg);
+  transform-origin: left top;
+}
+
+.h2-no-margin-b {
+  margin-bottom: 0;
+}
+
+.masonry-layout {
+  column-count: 2;
+  column-gap: 10px;
+  padding-bottom: 10px;
+  padding-top: 10px;
+}
+
+.masonry-layout__panel {
+  break-inside: avoid;
+  padding: 5px;
+}
+
+.masonry-layout__panel-content {
+  padding: 10px;
+}
+
+@media only screen and (max-device-width: 736px) {
+  .masonry-layout {
+    column-count: 1;
+    column-gap: 0;
+  }
+}
+
+.form-control-transparent {
+  background-color: transparent;
+}
+
+$input-color-placeholder: white !default;
