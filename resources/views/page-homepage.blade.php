@@ -7,48 +7,23 @@
         <div class="container">
             <div class="row">
 
-                <div class="col-sm-6 col-md-3 col-lg-3">
-                    <div class="card features-card">
-                        <img class="img-responsive card-img" src="assets/images/blog-main-1.jpg"/>
-                        <div class="card-body" style="min-height: auto">
-                            <h6 style="text-align: center"> The Exam for University Entrance </h6>
-                            <button class="btn btn-info btn-block">Start Now!</button>
+                @if(have_rows('exams'))
+                    @while(have_rows('exams')) @php(the_row())
+                        <div class="col-xs-6 col-sm-6 col-md-4 col-lg-4">
+                            <a href="@php(the_sub_field('exam_link'))">
+                                <div class="card features-card">
+                                    <img class="homepage-exams-img img-responsive card-img" src="@php(the_sub_field('exam_image'))" alt="@php(the_sub_field('exam_title'))"/>
+                                    <button class="homepage-exams-btn btn btn-info btn-block ">@php(_e('Start Now!', 'sage'))</button>
+                                </div>
+                            </a>
                         </div>
-                    </div>
-                </div>
+                    @endwhile
 
-                <div class="col-sm-6 col-md-3 col-lg-3">
-                    <div class="card features-card">
-                        <img class="img-responsive card-img" src="assets/images/blog-main-1.jpg"/>
-                        <div class="card-body" style="min-height: auto">
-                            <h6 style="text-align: center"> The Exam for University Entrance </h6>
-                            <button class="btn btn-info btn-block">Start Now!</button>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="col-sm-6 col-md-3 col-lg-3">
-                    <div class="card features-card">
-                        <img class="img-responsive card-img" src="assets/images/blog-main-1.jpg"/>
-                        <div class="card-body" style="min-height: auto">
-                            <h6 style="text-align: center"> The Exam for University Entrance </h6>
-                            <button class="btn btn-info btn-block">Start Now!</button>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="col-sm-6 col-md-3 col-lg-3">
-                    <div class="card features-card">
-                        <img class="img-responsive card-img" src="assets/images/blog-main-1.jpg"/>
-                        <div class="card-body" style="min-height: auto">
-                            <h6 style="text-align: center"> The Exam for University Entrance </h6>
-                            <button class="btn btn-info btn-block">Start Now!</button>
-                        </div>
-                    </div>
-                </div>
+                @endif
             </div>
         </div>
 
+         {{--Popular Blog Post Section       --}}
         <div class="bg-white" style="padding-top: 20px; padding-bottom: 20px;">
             <div class="container"><h2 class="h2-no-margin-b"><i class="now-ui-icons education_atom"></i> POPULAR POSTS</h2>
             </div>
@@ -110,7 +85,5 @@
                 {{--</div>--}}
 
             </div>
-
-
 
 @endsection
