@@ -4,7 +4,7 @@
 <nav class="navbar navbar-expand-lg bg-main-color fixed-top" color-on-scroll="5">
   <div class="container">
     <div class="navbar-translate">
-      <a class="navbar-brand" href="{{ home_url('/') }}}}" target="_blank">
+      <a class="navbar-brand" href="{{ home_url() }}}}" target="_blank">
         OTARIKKOC
       </a>
       <button class="navbar-toggler navbar-toggler" type="button" data-toggle="collapse" data-target="#navigation"

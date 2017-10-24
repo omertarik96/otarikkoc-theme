@@ -16,7 +16,7 @@
 <div class="main-section bg-grey">
   <div class="container">
     <div class="row">
-      <div class="col-sm-12 col-md-8 ">
+      <div class="col-sm-12 col-md-8 col-lg-8 ">
 
         <div class="container-content bg-white">
           <ul class="social-share-count">
@@ -41,3 +41,9 @@
           </div>
         </div>
       </div>
+
+        <div class="col-sm-12 col-md-4 col-lg-4">
+            <div class="container-sidebar">
+                @php(get_sidebar('primary'))
+            </div>
+        </div>
