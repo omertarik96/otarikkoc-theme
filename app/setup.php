@@ -100,7 +100,8 @@ add_action('widgets_init', function () {
     ];
     register_sidebar([
         'name'          => __('Primary', 'sage'),
-        'id'            => 'sidebar-primary'
+        'id'            => 'sidebar-main',
+        'description'   => __('Main sidebar for blog list and blog detail page')
     ] + $config);
     register_sidebar([
         'name'          => __('Footer', 'sage'),

@@ -38,7 +38,7 @@
       </div>
 
         <div class="col-sm-12 col-md-4 col-lg-4">
-            <div class="container-sidebar">
-                @php(get_sidebar('primary'))
+            <div class="">
+                @include('partials/sidebar')
             </div>
         </div>

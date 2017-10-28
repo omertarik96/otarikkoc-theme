@@ -64,9 +64,14 @@
   }
 }
 
+.sidebar-popular-posts-container {
+  position: sticky;
+  top: 5em;
+}
+
 .sidebar-popular-posts {
   position: sticky;
-  top: 70px;
+  top: 5em;
 }
 
 .container-sidebar h4 {
