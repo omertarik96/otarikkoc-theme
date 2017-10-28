@@ -19,12 +19,7 @@
       <div class="col-sm-12 col-md-8 col-lg-8 ">
 
         <div class="container-content bg-white">
-          <ul class="social-share-count">
-            <li><span>60 SHARES</span></li>
-            <li><span> 20 </span> <i class="fa fa-facebook-square fa"></i></li>
-            <li><span> 20 </span> <i class="fa fa-twitter-square fa"></i></li>
-            <li><span> 20 </span> <i class="fa fa-linkedin-square fa"></i></li>
-          </ul>
+           @php(ea_share()->front->display())
           <article>
             <h1> {{ get_the_title() }} </h1>
             @include('partials/entry-meta')

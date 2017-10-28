@@ -7,6 +7,9 @@
 use Roots\Sage\Config;
 use Roots\Sage\Container;
 
+// Register Custom Navigation Walker
+require_once('class-wp-bootstrap-navwalker.php');
+
 /**
  * Helper function for prettying up errors
  * @param string $message

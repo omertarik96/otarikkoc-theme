@@ -6,6 +6,12 @@ p {
   margin-top: 3em;
 }
 
+.main-section-page {
+  @extend .main-section;
+
+  padding-bottom: 3em;
+}
+
 .bg-grey {
   background-color: $greyColor;
 }
@@ -84,4 +90,24 @@ $input-color-placeholder: white !default;
 .homepage-exams-img {
   border-bottom-left-radius: 0 !important;
   border-bottom-right-radius: 0 !important;
+}
+
+.ajaxsearchpro {
+  font-family: Montserrat, "Helvetica Neue", sans-serif !important;
+}
+
+.orig {
+  padding-top: 0 !important;
+}
+
+.h2-no-margin-t {
+  margin-top: 0;
+}
+
+.popular-post-container {
+  margin-top: 3em;
+}
+
+.homepage-exam-section {
+  margin-bottom: 3em;
 }
