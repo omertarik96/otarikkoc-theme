@@ -47,11 +47,10 @@
 
 .container-content h1 {
   margin-bottom: 10px;
-  margin-top: 0.7em;
+  margin-top: 0;
 }
 
 .container-sidebar {
-  height: 40vh;
   padding: 1.5em;
   border-radius: 10px;
   background-color: white;
@@ -90,4 +89,8 @@
   padding-right: 10px;
   border-right: 1px solid grey;
   font-size: 2em;
+}
+
+.ea-share-count-wrap {
+  margin: 0;
 }

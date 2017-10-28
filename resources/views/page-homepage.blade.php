@@ -4,9 +4,10 @@
     @include('partials.page-header')
 
     <div class="main-section bg-grey">
-        <div class="container">
+        {{--   Exams Section   --}}
+        <div class="container homepage-exam-section">
+            <div class=""><h2 class="h2-no-margin-t"><i class="fa fa-pencil"></i> SINAVLAR </h2> </div>
             <div class="row">
-
                 @if(have_rows('exams'))
                     @while(have_rows('exams')) @php(the_row())
                         <div class="col-xs-6 col-sm-6 col-md-4 col-lg-4">
@@ -25,10 +26,9 @@
 
          {{--Popular Blog Post Section       --}}
         <div class="bg-white" style="padding-top: 20px; padding-bottom: 20px;">
-            <div class="container"><h2 class="h2-no-margin-b"><i class="now-ui-icons education_atom"></i> POPULAR POSTS</h2>
-            </div>
+            <div class="container popular-post-container"><h2 class="h2-no-margin-b"><i class="fa fa-rocket"></i> POPÜLER YAZILAR</h2></div>
             <div class="masonry-layout container">
-
+                {{-- Wp Query for getting posts instead of pages      --}}
                 @php
 
                 $query = new WP_Query( array (
@@ -42,48 +42,6 @@
                  @include('partials.content-new-style-'.get_post_type())
                 @endwhile
              @endif
-
-
-                {{--<div class="masonry-layout__panel">--}}
-                    {{--<div class="container-blog bg-grey masonry-layout__panel-content">--}}
-                        {{--<h6 style="color: orange;">--}}
-                            {{--<i class="fa fa-flask"></i> New--}}
-                        {{--</h6>--}}
-                        {{--<h4> The Ultimate Guide to Study Calculus and Get an A!</h4>--}}
-                        {{--<p> Calculus is a class that many students have some difficulties. Use this guide and give yourself--}}
-                            {{--a reward. You will be learning how to study Calculus efficiently and how to learn concepts--}}
-                            {{--quickly. </p>--}}
-                    {{--</div>--}}
-
-                    {{--<div class="container-blog bg-grey masonry-layout__panel-content">--}}
-                        {{--<h6 style="color: #FF3636;">--}}
-                            {{--<i class="fa fa-fire"></i> Trending--}}
-                        {{--</h6>--}}
-                        {{--<h4> Some Post Title Goes Here Title 1</h4>--}}
-                        {{--<p> Some description about the post</p>--}}
-                    {{--</div>--}}
-                {{--</div>--}}
-
-                {{--<div class="masonry-layout__panel">--}}
-                    {{--<div class="container-blog bg-grey masonry-layout__panel-content">--}}
-                        {{--<h6 style="color: #FF3636;">--}}
-                            {{--<i class="fa fa-fire"></i> Trending--}}
-                        {{--</h6>--}}
-                        {{--<h4> Some Post Title Goes Here Title 1</h4>--}}
-                        {{--<p> Some description about the post</p>--}}
-                    {{--</div>--}}
-                {{--</div>--}}
-
-                {{--<div class="masonry-layout__panel">--}}
-                    {{--<div class="container-blog bg-grey masonry-layout__panel-content">--}}
-                        {{--<h6 style="color: #FF3636;">--}}
-                            {{--<i class="fa fa-fire"></i> Trending--}}
-                        {{--</h6>--}}
-                        {{--<h4> Some Post Title Goes Here Title 1</h4>--}}
-                        {{--<p> Some description about the post</p>--}}
-                    {{--</div>--}}
-                {{--</div>--}}
-
             </div>
 
 @endsection
