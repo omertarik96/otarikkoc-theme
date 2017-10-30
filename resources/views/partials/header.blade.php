@@ -43,21 +43,21 @@
 	    @endphp
         <ul class="navbar-nav">
         <li class="nav-item">
-            <a class="nav-link" rel="tooltip" title="Follow us on Twitter" data-placement="bottom"
+            <a class="nav-link" rel="tooltip" title="Tweetlerime göz at" data-placement="bottom"
                href="https://twitter.com/otarikkoc" target="_blank">
                 <i class="fa fa-twitter"></i>
                 <p class="d-lg-none d-xl-none">Twitter</p>
             </a>
         </li>
         <li class="nav-item">
-            <a class="nav-link" rel="tooltip" title="Like us on Facebook" data-placement="bottom"
+            <a class="nav-link" rel="tooltip" title="Güzel paylaşımlarım oluyor" data-placement="bottom"
                href="https://www.facebook.com/otarikoc" target="_blank">
                 <i class="fa fa-facebook-square"></i>
                 <p class="d-lg-none d-xl-none">Facebook</p>
             </a>
         </li>
         <li class="nav-item">
-            <a class="nav-link" rel="tooltip" title="Follow us on Instagram" data-placement="bottom"
+            <a class="nav-link" rel="tooltip" title="Motivasyon içerir" data-placement="bottom"
                href="https://www.instagram.com/otarikkoc" target="_blank">
                 <i class="fa fa-instagram"></i>
                 <p class="d-lg-none d-xl-none">Instagram</p>
@@ -70,36 +70,6 @@
             </div>
         </li>
         </ul>
-
-      {{--<ul class="navbar-nav">--}}
-        {{--<li class="nav-item">--}}
-          {{--<a class="nav-link" href="#pablo">--}}
-            {{--<p>Link</p>--}}
-          {{--</a>--}}
-        {{--</li>--}}
-        {{--<div class="dropdown">--}}
-
-          {{--<a href="#pablo" class="nav-link dropdown-toggle" data-toggle="dropdown"--}}
-             {{--id="navbarDropdownMenuLink1">--}}
-            {{--Regular--}}
-          {{--</a>--}}
-
-          {{--<ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink1">--}}
-            {{--<a class="dropdown-item" href="#">Action</a>--}}
-            {{--<a class="dropdown-item" href="#">Another action</a>--}}
-            {{--<a class="dropdown-item" href="#">Something else here</a>--}}
-            {{--<div class="dropdown-divider"></div>--}}
-            {{--<a class="dropdown-item" href="#">Separated link</a>--}}
-            {{--<div class="dropdown-divider"></div>--}}
-            {{--<a class="dropdown-item" href="#">One more separated link</a>--}}
-          {{--</ul>--}}
-        {{--</div>--}}
-        {{--<li class="nav-item">--}}
-          {{--<a class="nav-link" href="#pablo">--}}
-            {{--<p>Link</p>--}}
-          {{--</a>--}}
-        {{--</li>--}}
-        {{----}}
       </ul>
 
 
