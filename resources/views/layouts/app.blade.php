@@ -2,7 +2,16 @@
 <html @php(language_attributes())>
   @include('partials.head')
   <body @php(body_class())>
-    @php(do_action('get_header'))
+      <!-- Global site tag (gtag.js) - Google Analytics -->
+      <script async src="https://www.googletagmanager.com/gtag/js?id=UA-58645616-1"></script>
+      <script>
+          window.dataLayer = window.dataLayer || [];
+          function gtag(){dataLayer.push(arguments);}
+          gtag('js', new Date());
+
+          gtag('config', 'UA-58645616-1');
+      </script>
+  @php(do_action('get_header'))
     @include('partials.header')
     <div class="" role="document">
       <div class="">

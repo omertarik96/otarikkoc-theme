@@ -14,7 +14,7 @@
                             <a href="@php(the_sub_field('exam_link'))">
                                 <div class="card features-card">
                                     <img class="homepage-exams-img img-responsive card-img" src="@php(the_sub_field('exam_image'))" alt="@php(the_sub_field('exam_title'))"/>
-                                    <button class="homepage-exams-btn btn btn-info btn-block ">@php(_e('Start Now!', 'sage'))</button>
+                                    <button class="homepage-exams-btn btn btn-info btn-block ">@php(_e('Şimdi Başla!', 'sage'))</button>
                                 </div>
                             </a>
                         </div>
