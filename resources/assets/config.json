@@ -8,8 +8,8 @@
       "./scripts/customizer.js"
     ],
     "now-ui-kit":[
-      "./styles/now-ui-kit.css",
-      "./scripts/now-ui-kit.js"
+      "./scripts/now-ui-kit.js",
+      "./styles/now-ui-kit.css"
     ],
     "custom": [
       "./styles/customstyles.scss"

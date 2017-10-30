@@ -26,12 +26,14 @@
         @if ($query->have_posts())
             @while ($query -> have_posts()) @php($query->the_post())
 
-            <div class="container-blog">
-                <h6 style="color: #FF3636;">
-                    <i class="fa fa-fire"></i> Trending
-                </h6>
-                <h6> {{ get_the_title() }}</h6>
-            </div>
+            <a href="{{ get_post_permalink() }}">
+                <div class="container-blog">
+                    <h6 style="color: #FF3636;">
+                        <i class="fa fa-fire"></i> Popüler
+                    </h6>
+                    <h6> {{ get_the_title() }}</h6>
+                </div>
+            </a>
 
             @endwhile
         @endif
