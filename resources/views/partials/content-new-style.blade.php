@@ -17,8 +17,8 @@
                         </h6>
                     </div>
                  @endif
+                {{--<img src="{{get_the_post_thumbnail_url()}}" /> --}}
                 <h4> {{ get_the_title() }}</h4>
-                <p> {{ get_the_excerpt() }}</p>
             </div>
         </a>
     </div>

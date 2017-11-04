@@ -26,7 +26,7 @@
 
          {{--Popular Blog Post Section       --}}
         <div class="bg-white" style="padding-top: 20px; padding-bottom: 20px;">
-            <div class="container popular-post-container"><h2 class="h2-no-margin-b"><i class="fa fa-rocket"></i> POPÜLER YAZILAR</h2></div>
+            <div class="container popular-post-container"><h2 class="h2-no-margin-b"><i class="fa fa-rocket"></i> SON EKLENEN YAZILAR</h2></div>
             <div class="masonry-layout container">
                 {{-- Wp Query for getting posts instead of pages      --}}
                 @php

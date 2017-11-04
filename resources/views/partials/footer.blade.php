@@ -7,32 +7,30 @@
     <nav>
       <ul>
         <li>
-          <a href="#">
-            Homepage
+          <a href="{{get_home_url()}}">
+            Anasayfa
           </a>
         </li>
         <li>
-          <a href="#">
-            About Us
+          <a href="{{ get_home_url() }}/hakkimizda">
+            Hakkımızda
           </a>
         </li>
         <li>
-          <a href="#">
+          <a href="{{ get_home_url()}}/blog">
             Blog
           </a>
         </li>
         <li>
-          <a href="#">
-            MIT License
+          <a href="{{ get_home_url()}}/legal ">
+            Legal
           </a>
         </li>
       </ul>
     </nav>
     <div class="copyright">
-      &copy; 2017
-
-      , Designed and developed by
-      <a href="http://linkedin.com/in/otarikkoc" target="_blank">Omer Tarik Koc</a>.
+      &copy; 2017, OTARIKKOC bir LORE markasıdır.
+        <a href="http://linkedin.com/in/otarikkoc" target="_blank">Omer Tarik Koc</a> tarafından &#9829; ve ☕ ile geliştirildi.
 
     </div>
   </div>
